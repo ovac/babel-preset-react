@@ -1,6 +1,6 @@
 {
   "name": "@ovac4u/babel-preset-react",
-  "version": "3.2.1",
+  "version": "7.0.0",
   "description": "A babel preset for transforming all JavaScript",
   "main": "index.js",
   "author": "Victor Ariama <iamovac@gmail.com>",
@@ -28,8 +28,8 @@
     "babel-plugin-module-resolver": "^3.2.0"
   },
   "peerDependencies": {
-    "babel-loader": "^8.0.5",
-    "@babel/core": "^7.0.0"
+    "@babel/core": "^7.0.0",
+    "babel-loader": "^8.0.5"
   },
   "devDependencies": {
     "@babel/core": "^7.4.3"
