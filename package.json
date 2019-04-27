@@ -1,0 +1,41 @@
+{
+  "name": "@ovac4u/babel-preset-react",
+  "version": "3.2.1",
+  "description": "A babel preset for transforming all JavaScript",
+  "main": "index.js",
+  "author": "Victor Ariama <iamovac@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ovac/babel-preset-ovac4u.git"
+  },
+  "keywords": [
+    "babel",
+    "es6",
+    "es2015",
+    "javascript"
+  ],
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.4.0",
+    "@babel/plugin-proposal-decorators": "^7.4.0",
+    "@babel/plugin-proposal-export-default-from": "^7.2.0",
+    "@babel/plugin-proposal-export-namespace-from": "^7.2.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.4.4",
+    "@babel/plugin-proposal-optional-chaining": "^7.2.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/preset-flow": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-plugin-module-resolver": "^3.2.0"
+  },
+  "peerDependencies": {
+    "babel-loader": "^8.0.5",
+    "@babel/core": "^7.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3"
+  },
+  "scripts": {
+    "test": "npm run tests-only",
+    "tests-only": "node . && echo 'parsed successfully'"
+  }
+}
