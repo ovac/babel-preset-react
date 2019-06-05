@@ -7,6 +7,7 @@ module.exports = () => {
 		],
 		plugins: [
 			['@babel/plugin-proposal-decorators', { legacy: true }],
+			'@babel/plugin-transform-flow-strip-types',
 			'@babel/plugin-proposal-class-properties',
 			'@babel/plugin-proposal-optional-chaining',
 			'@babel/plugin-proposal-object-rest-spread',
